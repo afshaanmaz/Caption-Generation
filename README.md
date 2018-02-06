@@ -2,39 +2,39 @@
 
 File Structure:
 
-cococaption 
-sparsemax
-    - core
+ - cococaption 
+ - sparsemax
+        - core
 
-    - data
-       - annotations
-            - contains json files for training and validation captions
-       - test
-            - contains pickle files
-       - train
-            - contains pickle files
-       - val
-            - contains pickle files
-       - imagenet.mat
-       
-    - data_old (shows what .pkl files were available before training)
+        - data
+           - annotations
+                - contains json files for training and validation captions
+           - test
+                - contains pickle files
+           - train
+                - contains pickle files
+           - val
+                - contains pickle files
+           - imagenet.mat
 
-    - image
-            - contains resized images (after preprocessing)
-    - jpg
-            - contains some results of attention maps
-            
-    - log (created after training 
-            - contains tensorflow logs)
+        - data_old (shows what .pkl files were available before training)
 
-    - model
-    
-    # files
+        - image
+                - contains resized images (after preprocessing)
+        - jpg
+                - contains some results of attention maps
 
-    - prepro.py / prepro_small.py
+        - log (created after training 
+                - contains tensorflow logs)
 
-    - resize.py
+        - model
 
-    - test.py
+        # files
 
-    - train.py
+        - prepro.py / prepro_small.py
+
+        - resize.py
+
+        - test.py
+
+        - train.py
